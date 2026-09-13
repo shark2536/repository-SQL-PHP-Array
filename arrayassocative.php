@@ -15,7 +15,7 @@ foreach($proses as $rowData) {
     echo "Nama Siswa: " . $rowData['nama_siswa'] . "<br>";
     echo "Jurusan: " . $rowData['jurusan'] . "<br>";
     echo "Kelas: " . $rowData['kelas'] . "<br>";
-    echo "---------------";
+    echo "<hr>";
 }
 }
 
@@ -40,14 +40,14 @@ foreach($siswa as $tampilSiswa) {
     echo "Nama: " . $tampilSiswa["nama"] . "<br>";
     echo "Jurusan: " . $tampilSiswa["jurusan"] . "<br>";
     echo "Nilai: " . $tampilSiswa["nilai"] . "<br>";
-    echo "--------------- <br>";
+    echo <hr>";
 }
 }
 
-echo "Array Manual: <br> --------------- <br>";
+echo "Array Manual: <hr>";
 latihanArrayScope();
 echo "<br>";
-echo "Array Database: <br> ---------------";
+echo "Array Database: <hr>";
 arrayFromDatabase();
 
 ?>
